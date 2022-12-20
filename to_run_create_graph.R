@@ -29,7 +29,7 @@ steps_style <- c(cell_style = "circle")
 datamodels_style <- c(cell_style = "yellow")
 arrows_style <- c(arrow_style = "circle arrow")
 
-inputfile <- paste0(thisdir,"./index.xlsx")
+inputfile <- paste0(thisdir,"/index.xlsx")
 
 fromxls <- read_excel(inputfile)
 fwrite(fromxls, file = paste0(thisdir,"/index.csv"))
