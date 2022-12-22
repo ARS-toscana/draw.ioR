@@ -176,7 +176,7 @@ populate_attrs_fd <- function(cell_list, direction) {
   return(list(cells_attr, arrow_attr))
 }
 
-populate_attrs_fd_roel <- function(path, direction) {
+populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, datamodels_style) {
   
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()

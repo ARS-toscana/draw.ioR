@@ -111,7 +111,7 @@ create_diagram <- function(path, pages = 1, arrows_style, steps_style, datamodel
   # cell_list, pages = 1, arrows_style, direction
   
   # cell_arr <- populate_attrs_fd(cell_list, direction)
-  cell_arr <- populate_attrs_fd_roel(path, direction)
+  cell_arr <- populate_attrs_fd_roel(path, direction, arrows_style, steps_style, datamodels_style)
   cells_attr <- cell_arr[[1]]
   arrow_attr <- cell_arr[[2]]
   
