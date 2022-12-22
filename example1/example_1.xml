@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2021-02-12T20:24:28.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/14.1.8 Chrome/87.0.4280.88 Electron/11.1.1 Safari/537.36" etag="fHMIuIajccZ_3DrzuGlE" version="14.1.8" type="device" pages="1">
+  <diagram id="awe_articuno" name="Page-1">
+    <mxGraphModel dx="1086" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <object label="Step_step_1_1" shape="oval" id="step_1_1_1">
+          <mxCell style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Step_step_1_2" shape="oval" id="step_1_2_1">
+          <mxCell style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Step_step_2_1" shape="oval" id="step_2_1_2">
+          <mxCell style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="300" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Step_step_3_1" shape="oval" id="step_3_1_3">
+          <mxCell style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="500" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Step_step_3_2" shape="oval" id="step_3_2_3">
+          <mxCell style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="500" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="interm_output_1" shape="oval" id="a_interm_output_1">
+          <mxCell style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="interm_output_2" shape="oval" id="a_interm_output_2">
+          <mxCell style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="interm_output_3" shape="oval" id="a_interm_output_3">
+          <mxCell style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="output_1" shape="oval" id="a_output_1">
+          <mxCell style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="output_2" shape="oval" id="a_output_2">
+          <mxCell style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="input1" shape="oval" id="a_input1">
+          <mxCell style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="100" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="input2" shape="oval" id="a_input2">
+          <mxCell style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="tarnished_typhlosion">
+          <mxCell parent="1" source="a_input1" target="step_1_1_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="productive_tyranitar">
+          <mxCell parent="1" source="a_input1" target="step_1_2_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="dull_chinchou">
+          <mxCell parent="1" source="a_input2" target="step_1_2_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="torn_cyndaquil">
+          <mxCell parent="1" source="step_1_1_1" target="a_interm_output_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="threatening_togepi">
+          <mxCell parent="1" source="step_1_2_1" target="a_interm_output_2" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="despair_espeon">
+          <mxCell parent="1" source="step_2_1_2" target="a_interm_output_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="exploited_pichu">
+          <mxCell parent="1" source="step_3_1_3" target="a_output_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="futile_teddiursa">
+          <mxCell parent="1" source="step_3_2_3" target="a_output_2" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="logical_stantler">
+          <mxCell parent="1" source="a_interm_output_1" target="step_2_1_2" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="annoyed_lugia">
+          <mxCell parent="1" source="a_interm_output_2" target="step_2_1_2" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="odd_dunsparce">
+          <mxCell parent="1" source="a_interm_output_2" target="step_3_1_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="earnest_stantler">
+          <mxCell parent="1" source="a_interm_output_3" target="step_3_1_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="tragic_lanturn">
+          <mxCell parent="1" source="a_interm_output_1" target="step_3_2_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA" id="knowledgeable_natu">
+          <mxCell parent="1" source="a_interm_output_3" target="step_3_2_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

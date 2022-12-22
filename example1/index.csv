@@ -1,0 +1,6 @@
+dataset_name,step_producing_this_dataset,input_datasets_for_the_step,folder_where_the_datset_is_stored
+interm_output_1,step_1_1,input1,
+interm_output_2,step_1_2,input1 input2,
+interm_output_3,step_2_1,interm_output_1 interm_output_2,
+output_1,step_3_1,interm_output_2 interm_output_3,
+output_2,step_3_2,interm_output_1 interm_output_3,
