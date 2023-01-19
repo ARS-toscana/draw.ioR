@@ -29,7 +29,7 @@ source(paste0(thisdir,"/../styles_and_parameters.R"))
 #set the styles
 thissteps_style <- c(cell_style = "circle")
 thisdatamodels_style <- c(cell_style = "yellow")
-thisarrows_style <- c(arrow_style = "circle arrow")
+thisarrows_style <- c(arrow_style = "curved arrow")
 
 # load the input file from excel format and save in csv
 inputfile <- paste0(thisdir,"/index.xlsx")
