@@ -37,17 +37,21 @@ sanitize_index <- function(x) {
            rename(PROGRAM = "step_producing_this_dataset") %>%
            rename(FOLDER_VAR = "folder_where_the_datset_is_stored") %>%
            rename(FILE = "dataset_name") %>%
-           select(PROGRAM, FOLDER_VAR, FILE, SLUG))
+           rename(INPUT_DATA = "input_datasets_for_the_step") %>%
+           select(PROGRAM, FOLDER_VAR, FILE, INPUT_DATA, SLUG))
 }
 
 sanitize_output <- function(x) {
   return(x %>%
            mutate(TYPE = "OUTPUT") %>%
+           select(-INPUT_DATA) %>%
            unique())
 }
 
 sanitize_input <- function(x) {
   return(x %>%
+           mutate(FILE = INPUT_DATA) %>%
+           select(-INPUT_DATA) %>%
            drop_na(FILE) %>%
            mutate(TYPE = "INPUT") %>%
            unique() %>%
@@ -204,13 +208,28 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()
   
+  temp_data_roel <- conception_to_roel(read_excel(path))
+  
   temp_data <- sanitize_index(read_excel(path))
-  temp_data_1 <- sanitize_output(temp_data)
-  temp_data_2 <- sanitize_input(temp_data)
   
-  temp_data <- rbind(temp_data_1, temp_data_2)
+  temp_data_new <- rbind(sanitize_output(temp_data), sanitize_input(temp_data))
   
+  temp_data %>%
+    drop_na(FILE) %>%
+    mutate(TYPE = "INPUT") %>%
+    unique() %>%
+    separate_rows(FILE, sep = " ", convert = FALSE)
+  
+  temp_data_roel <- conception_to_roel(read_excel(path))
+  temp_data_roel <- temp_data_roel %>%
+    mutate(SLUG = NA_character_) %>%
+    mutate(FOLDER_VAR = NA) %>%
+    mutate(FOLDER_VAR = as.logical(FOLDER_VAR)) %>%
+    select(PROGRAM, FOLDER_VAR, FILE, SLUG, TYPE)
+  
+  testthat::expect_equal(temp_data_roel, temp_data_new)
   browser()
+  
   temp_data %<>%
     dplyr::select(PROGRAM, FOLDER_VAR, FILE, TYPE) %>%
     dplyr::mutate(PROGRAM = stringr::str_extract(temp_data$PROGRAM, "^([^_]*_){2}[^_]*"),
@@ -251,12 +270,7 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   
   arrow_attr <- calc_tags_level0(cells_attr, arrow_attr)
   cells_attr <- calc_coordinates(cells_attr, direction)
-
-  testthat::expect_equal(arrow_attr, read_delim("arrow_attr.csv"))
-  testthat::expect_equal(cells_attr, read_delim("cells_attr.csv"))
-  readr::write_delim(arrow_attr, "arrow_attr_new.csv")
-  readr::write_delim(cells_attr, "cells_attr_new.csv")
-  stop("finished!")
+  
   return(list(cells_attr, arrow_attr))
 }
 
