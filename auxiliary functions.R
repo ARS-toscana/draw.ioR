@@ -58,6 +58,10 @@ sanitize_input <- function(x) {
            separate_rows(FILE, sep = " ", convert = FALSE))
 }
 
+extract_SLUG <- function(x) {
+  return(x %>% select(FILE, SLUG))
+}
+
 # Function useful for recoding all values of a column. The dataframe to join NEED to have just 1 column outside of keys!
 # Condition specified as ex:c("a" = "b")
 left_join_and_substitute <- function(df1, df2, old_name = T, by.cond = NULL) {
@@ -211,6 +215,9 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   temp_data_roel <- conception_to_roel(read_excel(path))
   
   temp_data <- sanitize_index(read_excel(path))
+  
+  SLUG_data <- extract_SLUG(temp_data)
+  temp_data %<>% select(-SLUG)
   
   temp_data_new <- rbind(sanitize_output(temp_data), sanitize_input(temp_data))
   
