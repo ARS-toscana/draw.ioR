@@ -25,6 +25,7 @@ invisible(lapply(list.of.packages, require, character.only = T))
 source(paste0(thisdir,"/../main functions.R"))
 source(paste0(thisdir,"/../auxiliary functions.R"))
 source(paste0(thisdir,"/../styles_and_parameters.R"))
+source(paste0(thisdir,"/../clean and sanitize.R"))
 
 #set the styles
 thissteps_style <- c(cell_style = "circle")
