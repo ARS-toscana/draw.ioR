@@ -181,9 +181,7 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()
   
-  temp_data <- readr::read_csv(path, show_col_types = FALSE)
-  
-  temp_data <- conception_to_roel(temp_data)
+  temp_data <- conception_to_roel(read_delim(paste0(thisdir,"/index.csv")))
   
   temp_data %<>%
     dplyr::select(PROGRAM, FOLDER_VAR, FILE, TYPE) %>%
