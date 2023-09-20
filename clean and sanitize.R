@@ -2,7 +2,7 @@ sanitize_index <- function(x) {
   lookup <- c(SLUG = "slug", PROGRAM = "step_producing_this_dataset", FOLDER_VAR = "folder_where_the_datset_is_stored",
               FILE = "dataset_name", INPUT_DATA = "input_datasets_for_the_step")
   return(x %>%
-           rename(iris, all_of(lookup)) %>%
+           rename(all_of(lookup)) %>%
            select(PROGRAM, FOLDER_VAR, FILE, INPUT_DATA, SLUG))
 }
 
