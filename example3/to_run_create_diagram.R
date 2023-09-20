@@ -38,7 +38,7 @@ fwrite(fromxls, file = paste0(thisdir,"/index.csv"))
 
 # run the function
 test_xml <- create_diagram(
-  path = paste0(thisdir,"/index.xlsx"), 
+  path = paste0(thisdir,"/index.csv"), 
   pages = 1, 
   arrows_style = thisarrows_style, 
   steps_style = thissteps_style, 
