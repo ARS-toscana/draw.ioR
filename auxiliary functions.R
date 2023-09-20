@@ -31,6 +31,29 @@ conception_to_roel <- function(file) {
   return(test23)
 }
 
+sanitize_index <- function(x) {
+  return(x %>%
+           rename(SLUG = "slug") %>%
+           rename(PROGRAM = "step_producing_this_dataset") %>%
+           rename(FOLDER_VAR = "folder_where_the_datset_is_stored") %>%
+           rename(FILE = "dataset_name") %>%
+           select(PROGRAM, FOLDER_VAR, FILE, SLUG))
+}
+
+sanitize_output <- function(x) {
+  return(x %>%
+           mutate(TYPE = "OUTPUT") %>%
+           unique())
+}
+
+sanitize_input <- function(x) {
+  return(x %>%
+           drop_na(FILE) %>%
+           mutate(TYPE = "INPUT") %>%
+           unique() %>%
+           separate_rows(FILE, sep = " ", convert = FALSE))
+}
+
 # Function useful for recoding all values of a column. The dataframe to join NEED to have just 1 column outside of keys!
 # Condition specified as ex:c("a" = "b")
 left_join_and_substitute <- function(df1, df2, old_name = T, by.cond = NULL) {
@@ -181,7 +204,7 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()
   
-  temp_data <- conception_to_roel(read_delim(paste0(thisdir,"/index.csv")))
+  temp_data <- conception_to_roel(read_excel(path))
   
   temp_data %<>%
     dplyr::select(PROGRAM, FOLDER_VAR, FILE, TYPE) %>%
@@ -223,7 +246,7 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   
   arrow_attr <- calc_tags_level0(cells_attr, arrow_attr)
   cells_attr <- calc_coordinates(cells_attr, direction)
-  
+
   return(list(cells_attr, arrow_attr))
 }
 
