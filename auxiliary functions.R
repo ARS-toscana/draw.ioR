@@ -188,13 +188,7 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   SLUG_data <- extract_SLUG(temp_data)
   temp_data %<>% select(-SLUG)
   
-  temp_data_new <- rbind(sanitize_output(temp_data), sanitize_input(temp_data))
-  
-  temp_data %>%
-    drop_na(FILE) %>%
-    mutate(TYPE = "INPUT") %>%
-    unique() %>%
-    separate_rows(FILE, sep = " ", convert = FALSE)
+  temp_data <- rbind(sanitize_output(temp_data), sanitize_input(temp_data))
   
   # temp_data_roel <- conception_to_roel(read_excel(path))
   # temp_data_roel <- temp_data_roel %>%
