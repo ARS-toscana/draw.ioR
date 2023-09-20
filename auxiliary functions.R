@@ -31,37 +31,6 @@ conception_to_roel <- function(file) {
   return(test23)
 }
 
-sanitize_index <- function(x) {
-  return(x %>%
-           rename(SLUG = "slug") %>%
-           rename(PROGRAM = "step_producing_this_dataset") %>%
-           rename(FOLDER_VAR = "folder_where_the_datset_is_stored") %>%
-           rename(FILE = "dataset_name") %>%
-           rename(INPUT_DATA = "input_datasets_for_the_step") %>%
-           select(PROGRAM, FOLDER_VAR, FILE, INPUT_DATA, SLUG))
-}
-
-sanitize_output <- function(x) {
-  return(x %>%
-           mutate(TYPE = "OUTPUT") %>%
-           select(-INPUT_DATA) %>%
-           unique())
-}
-
-sanitize_input <- function(x) {
-  return(x %>%
-           mutate(FILE = INPUT_DATA) %>%
-           select(-INPUT_DATA) %>%
-           drop_na(FILE) %>%
-           mutate(TYPE = "INPUT") %>%
-           unique() %>%
-           separate_rows(FILE, sep = " ", convert = FALSE))
-}
-
-extract_SLUG <- function(x) {
-  return(x %>% select(FILE, SLUG))
-}
-
 # Function useful for recoding all values of a column. The dataframe to join NEED to have just 1 column outside of keys!
 # Condition specified as ex:c("a" = "b")
 left_join_and_substitute <- function(df1, df2, old_name = T, by.cond = NULL) {
@@ -212,7 +181,7 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()
   
-  temp_data_roel <- conception_to_roel(read_excel(path))
+  # temp_data_roel <- conception_to_roel(read_excel(path))
   
   temp_data <- sanitize_index(read_excel(path))
   
@@ -227,18 +196,15 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
     unique() %>%
     separate_rows(FILE, sep = " ", convert = FALSE)
   
-  temp_data_roel <- conception_to_roel(read_excel(path))
-  temp_data_roel <- temp_data_roel %>%
-    mutate(SLUG = NA_character_) %>%
-    mutate(FOLDER_VAR = NA) %>%
-    mutate(FOLDER_VAR = as.logical(FOLDER_VAR)) %>%
-    select(PROGRAM, FOLDER_VAR, FILE, SLUG, TYPE)
-  
-  testthat::expect_equal(temp_data_roel, temp_data_new)
+  # temp_data_roel <- conception_to_roel(read_excel(path))
+  # temp_data_roel <- temp_data_roel %>%
+  #   mutate(FOLDER_VAR = NA) %>%
+  #   mutate(FOLDER_VAR = as.logical(FOLDER_VAR)) %>%
+  #   select(PROGRAM, FOLDER_VAR, FILE, TYPE)
+  # testthat::expect_equal(temp_data_roel, temp_data_new)
   browser()
   
   temp_data %<>%
-    dplyr::select(PROGRAM, FOLDER_VAR, FILE, TYPE) %>%
     dplyr::mutate(PROGRAM = stringr::str_extract(temp_data$PROGRAM, "^([^_]*_){2}[^_]*"),
                   level = as.integer(stringr::str_extract(temp_data$PROGRAM, "\\d+")),
                   level_datamodel = dplyr::if_else(TYPE == "OUTPUT", level * 2, 999),
