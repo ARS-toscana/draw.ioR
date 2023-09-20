@@ -1,6 +1,6 @@
-status,dataset_name,dataset_description,step_producing_this_dataset,folder_where_the_datset_is_stored,input_datasets_for_the_step,input_parameters,notes
-,conceptsetdataset,,01_1_T2.1_create_conceptset_datasets,,VACCINES MEDICINES EVENTS SURVEY_OBSERVATIONS MEDICAL_OBSERVATIONS,,
-ready,output_spells_category,,01_2_T2.1_create_spells,,OBSERVATION_PERIODS,,
+status,dataset_name,dataset_description,step_producing_this_dataset,folder_where_the_datset_is_stored,input_datasets_for_the_step,slug,notes
+,conceptsetdataset,,01_1_T2.1_create_conceptset_datasets,,VACCINES MEDICINES EVENTS SURVEY_OBSERVATIONS MEDICAL_OBSERVATIONS,concept,
+ready,output_spells_category,,01_2_T2.1_create_spells,,OBSERVATION_PERIODS,out_spell,
 doing,D3_PERSONS,,01_3_T2.1_create_dates_in_PERSONS,,PERSONS,,
 ,D3_events_DEATH,,01_3_T2.1_create_dates_in_PERSONS,,PERSONS,,
 backlog,itemsetdataset,,01_4_T2.1_create_prompt_and_itemset_datasets,,SURVEY_OBSERVATIONS MEDICAL_OBSERVATIONS SURVEY_ID VISIT_OCCURRENCE_ID,,

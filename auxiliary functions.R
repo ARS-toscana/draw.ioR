@@ -204,8 +204,13 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()
   
-  temp_data <- conception_to_roel(read_excel(path))
+  temp_data <- sanitize_index(read_excel(path))
+  temp_data_1 <- sanitize_output(temp_data)
+  temp_data_2 <- sanitize_input(temp_data)
   
+  temp_data <- rbind(temp_data_1, temp_data_2)
+  
+  browser()
   temp_data %<>%
     dplyr::select(PROGRAM, FOLDER_VAR, FILE, TYPE) %>%
     dplyr::mutate(PROGRAM = stringr::str_extract(temp_data$PROGRAM, "^([^_]*_){2}[^_]*"),
@@ -247,6 +252,11 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   arrow_attr <- calc_tags_level0(cells_attr, arrow_attr)
   cells_attr <- calc_coordinates(cells_attr, direction)
 
+  testthat::expect_equal(arrow_attr, read_delim("arrow_attr.csv"))
+  testthat::expect_equal(cells_attr, read_delim("cells_attr.csv"))
+  readr::write_delim(arrow_attr, "arrow_attr_new.csv")
+  readr::write_delim(cells_attr, "cells_attr_new.csv")
+  stop("finished!")
   return(list(cells_attr, arrow_attr))
 }
 
