@@ -211,7 +211,8 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   steps_cells <- temp_data %>%
     dplyr::transmute(cell_name = paste(PROGRAM, level, sep = "_"),
                      cell_style = steps_style,
-                     label = paste("Step", PROGRAM, sep = "_"),
+                     # label = paste("Step", PROGRAM, sep = "_"),
+                     label = PROGRAM,
                      level = level_step) %>%
     dplyr::distinct()
   
