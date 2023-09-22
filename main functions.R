@@ -112,10 +112,11 @@ create_diagram <- function(path, pages = 1, arrows_style, steps_style, datamodel
   
   # cell_arr <- populate_attrs_fd(cell_list, direction)
   cell_arr <- populate_attrs_fd_roel(path, direction, arrows_style, steps_style, datamodels_style, remote, branch)
+
   cells_attr <- cell_arr[[1]]
   arrow_attr <- cell_arr[[2]]
   
-  test_xml <- xml_new_root("mxfile", host="Electron", modified="2021-02-12T20:24:28.529Z",
+  test_xml <- xml_new_root("mxfile", host="Electron", modified = Sys.time(),
                            agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/14.1.8 Chrome/87.0.4280.88 Electron/11.1.1 Safari/537.36",
                            etag="fHMIuIajccZ_3DrzuGlE", version="14.1.8", type="device", pages = as.character(1))
   id_page <- create_id_page()
