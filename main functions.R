@@ -106,12 +106,12 @@ create_arrow_cell_attrs_list <- function(tbl_row) {
 # Create new document and root. Number of pages is a variable defined in the parameters.
 # TODO support for deciding styles
 # TODO support for different style for each page
-create_diagram <- function(path, pages = 1, arrows_style, steps_style, datamodels_style, direction){
-  
+create_diagram <- function(path, pages = 1, arrows_style, steps_style, datamodels_style, direction,
+                           remote = sub('\\.git$', '', git2r::remote_url()), branch = git2r::repository_head()$name){
   # cell_list, pages = 1, arrows_style, direction
   
   # cell_arr <- populate_attrs_fd(cell_list, direction)
-  cell_arr <- populate_attrs_fd_roel(path, direction, arrows_style, steps_style, datamodels_style)
+  cell_arr <- populate_attrs_fd_roel(path, direction, arrows_style, steps_style, datamodels_style, remote, branch)
   cells_attr <- cell_arr[[1]]
   arrow_attr <- cell_arr[[2]]
   
