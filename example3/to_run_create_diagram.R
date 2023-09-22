@@ -4,19 +4,7 @@ thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 # load packages
-library(xml2)
-library(tibble)
-library(dplyr)
-library(magrittr)
-library(readr)
-library(readxl)
-library(tidyr)
-library(stringr)
-library(rcorpora)
-library(readxl)
-library(data.table)
-
-list.of.packages <- c("xml2", "tibble", "dplyr", "magrittr", "readr", "readxl", "tidyr", "stringr", "rcorpora","readxl","data.table")
+list.of.packages <- c("xml2", "tibble", "dplyr", "magrittr", "readr", "readxl", "tidyr", "stringr","readxl","data.table")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 invisible(lapply(list.of.packages, require, character.only = T))
@@ -32,11 +20,6 @@ thissteps_style <- c(cell_style = "circle")
 thisdatamodels_style <- c(cell_style = "yellow")
 thisarrows_style <- c(arrow_style = "curved arrow")
 
-# load the input file from excel format and save in csv
-inputfile <- paste0(thisdir,"/index.xlsx")
-fromxls <- read_excel(inputfile)
-fwrite(fromxls, file = paste0(thisdir,"/index.csv"))
-
 # run the function
 test_xml <- create_diagram(
   path = paste0(thisdir,"/index.xlsx"), 
@@ -48,6 +31,4 @@ test_xml <- create_diagram(
 )
 
 #export the output
-xml2::write_xml(test_xml, "example.xml")
-
-# to be uploaded to https://app.diagrams.net
+# xml2::write_xml(test_xml, "example.xml")
