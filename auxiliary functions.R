@@ -176,7 +176,7 @@ populate_attrs_fd <- function(cell_list, direction) {
   return(list(cells_attr, arrow_attr))
 }
 
-populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, datamodels_style) {
+populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, datamodels_style, remote, branch) {
   
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()
@@ -188,7 +188,12 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   SLUG_data <- extract_SLUG(temp_data)
   temp_data %<>% select(-SLUG)
   
-  temp_data <- rbind(sanitize_output(temp_data), sanitize_input(temp_data))
+  temp_data_output <- sanitize_output(temp_data)
+  temp_data_input <- sanitize_input(temp_data)
+  
+  only_inputs <- setdiff(select(temp_data_input, FOLDER_VAR, FILE), select(temp_data_output, FOLDER_VAR, FILE)) %>%
+    mutate(only_input = T)
+  temp_data <- rbind(temp_data_output, temp_data_input)
   
   # temp_data_roel <- conception_to_roel(read_excel(path))
   # temp_data_roel <- temp_data_roel %>%
@@ -196,35 +201,54 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
   #   mutate(FOLDER_VAR = as.logical(FOLDER_VAR)) %>%
   #   select(PROGRAM, FOLDER_VAR, FILE, TYPE)
   # testthat::expect_equal(temp_data_roel, temp_data_new)
-  browser()
+  
+  # add_levels <- function(df, type) {
+  #   df %<>%
+  #     dplyr::mutate(level = as.integer(stringr::str_extract(PROGRAM, "\\d+")),
+  #                   level_step = (level * 2) - 1) %>%
+  #     dplyr::group_by(FOLDER_VAR, FILE) %>%
+  #     dplyr::mutate(level_datamodel = dplyr::if_else(TYPE == type, level * 2, 999),
+  #                   level_datamodel = min(level_datamodel),
+  #                   level_datamodel = dplyr::if_else(level_datamodel == 999, 0, level_datamodel)) %>%
+  #     dplyr::ungroup()
+  # }
   
   temp_data %<>%
-    dplyr::mutate(PROGRAM = stringr::str_extract(temp_data$PROGRAM, "^([^_]*_){2}[^_]*"),
-                  level = as.integer(stringr::str_extract(temp_data$PROGRAM, "\\d+")),
+    dplyr::mutate(level = as.integer(stringr::str_extract(PROGRAM, "\\d+")),
                   level_datamodel = dplyr::if_else(TYPE == "OUTPUT", level * 2, 999),
                   level_step = (level * 2) - 1) %>%
     dplyr::group_by(FOLDER_VAR, FILE) %>%
     dplyr::mutate(level_datamodel = min(level_datamodel),
                   level_datamodel = dplyr::if_else(level_datamodel == 999, 0, level_datamodel)) %>%
     dplyr::ungroup()
-  
+
   steps_cells <- temp_data %>%
     dplyr::transmute(cell_name = paste(PROGRAM, level, sep = "_"),
                      cell_style = steps_style,
                      # label = paste("Step", PROGRAM, sep = "_"),
                      label = PROGRAM,
-                     level = level_step) %>%
+                     level = level_step,
+                     # TODO add here complete link
+                     LINK = paste0(paste(remote, "blob", branch, "p_steps", LINK, sep = "/"), ".R")) %>%
     dplyr::distinct()
   
   datamodel_cells <- temp_data %>%
+    left_join(only_inputs, by = c("FOLDER_VAR", "FILE")) %>%
+    left_join(SLUG_data, by = c("FOLDER_VAR", "FILE")) %>%
+    dplyr::mutate(only_input = dplyr::if_else(is.na(only_input), F, only_input)) %>%
     dplyr::transmute(cell_name = paste(FOLDER_VAR, FILE, sep = "_"),
                      cell_style = datamodels_style,
                      label = FILE,
-                     level = level_datamodel) %>%
+                     level = level_datamodel,
+                     # TODO add here complete link
+                     SLUG = dplyr::if_else(!is.na(SLUG), SLUG, label),
+                     SLUG = dplyr::if_else(only_input, NA, SLUG)) %>%
+    dplyr::rename(LINK = SLUG) %>%
     dplyr::distinct()
   
   cells_attr %<>%
-    dplyr::bind_rows(steps_cells, datamodel_cells)
+    dplyr::bind_rows(steps_cells, datamodel_cells) %>%
+    dplyr::distinct()
   
   arrow_attr %<>%
     dplyr::bind_rows(
