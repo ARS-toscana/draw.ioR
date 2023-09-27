@@ -31,4 +31,6 @@ test_xml <- create_diagram(
 )
 
 #export the output
-# xml2::write_xml(test_xml, "example.xml")
+xml2::write_xml(test_xml, "example.xml")
+xml2::write_html(test_xml, "example.html")
+
