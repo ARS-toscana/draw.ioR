@@ -53,6 +53,7 @@ create_arrow_cell_attrs_tbl <- function(arrow_attr, cells_attr, direction) {
   arrow_attr <- rbind(tmp0, tmp1)
   
   cells_attr <- cells_attr %>%
+    mutate(linkTarget = "_blank") %>%
     left_join(cell_styles, by = c("cell_style" = "name_style")) %>%
     mutate(shape = coalesce(shape.x, shape.y),
            width = coalesce(width.x, width.y),
@@ -107,11 +108,12 @@ create_arrow_cell_attrs_list <- function(tbl_row) {
 # TODO support for deciding styles
 # TODO support for different style for each page
 create_diagram <- function(path, pages = 1, arrows_style, steps_style, datamodels_style, direction,
-                           remote = sub('\\.git$', '', git2r::remote_url()), branch = git2r::repository_head()$name){
+                           remote = sub('\\.git$', '', git2r::remote_url()), branch = git2r::repository_head()$name,
+                           datamodels_path = dirname(path)){
   # cell_list, pages = 1, arrows_style, direction
   
   # cell_arr <- populate_attrs_fd(cell_list, direction)
-  cell_arr <- populate_attrs_fd_roel(path, direction, arrows_style, steps_style, datamodels_style, remote, branch)
+  cell_arr <- populate_attrs_fd_roel(path, direction, arrows_style, steps_style, datamodels_style, remote, branch, datamodels_path)
 
   cells_attr <- cell_arr[[1]]
   arrow_attr <- cell_arr[[2]]
@@ -136,11 +138,11 @@ create_diagram <- function(path, pages = 1, arrows_style, steps_style, datamodel
     xml_add_child(xml_children(test_xml), "mxGraphModel")
     xml_set_attrs(xml_children(xml_children(test_xml))[length(xml_children(xml_children(test_xml)))], vector_param_page)
     xml_add_child(xml_children(xml_children(test_xml)), "root")
-    
+
     arrow_cell_attrs_tbl <- create_arrow_cell_attrs_tbl(arrow_attr, cells_attr, direction)
     
     object_attrs_tbl <- arrow_cell_attrs_tbl %>%
-      select(any_of(c("label", "tags", "link", "placeholders", "tooltip", "shape", "id")))
+      select(any_of(c("label", "tags", "link", "linkTarget", "placeholders", "tooltip", "shape", "id")))
     mxGeometry_attrs_tbl <- arrow_cell_attrs_tbl %>%
       select(any_of(c("x", "y", "width", "height", "relative", "as")))
     mxCell_attrs_tbl <- arrow_cell_attrs_tbl %>%
