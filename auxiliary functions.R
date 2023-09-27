@@ -103,8 +103,8 @@ create_vector_param_page <- function() {
 columns_to_style <- function(start_df) {
   
   start_df %>%
-    tibble::rowid_to_column("ID") %>%
     dplyr::mutate_all(dplyr::na_if, "") %>%
+    tibble::rowid_to_column("ID") %>%
     tidyr::gather(key, value, any_of(c("html", "rounded", "whiteSpace", "fillColor",
                                        "strokeColor", "strokeWidth", "dashed")), factor_key = TRUE) %>%
     dplyr::filter(!is.na(value) | name_style %in% c("empty", "start")) %>%
@@ -176,7 +176,7 @@ populate_attrs_fd <- function(cell_list, direction) {
   return(list(cells_attr, arrow_attr))
 }
 
-populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, datamodels_style, remote, branch) {
+populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, datamodels_style, remote, branch, datamodels_path) {
   
   cells_attr <- basic_cells()
   arrow_attr <- basic_arrow_attributes()
@@ -229,7 +229,7 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
                      label = PROGRAM,
                      level = level_step,
                      # TODO add here complete link
-                     LINK = paste0(paste(remote, "blob", branch, "p_steps", LINK, sep = "/"), ".R")) %>%
+                     link = paste0(file.path(remote, "blob", branch, "p_steps", LINK), ".R")) %>%
     dplyr::distinct()
   
   datamodel_cells <- temp_data %>%
@@ -242,8 +242,10 @@ populate_attrs_fd_roel <- function(path, direction, arrows_style, steps_style, d
                      level = level_datamodel,
                      # TODO add here complete link
                      SLUG = dplyr::if_else(!is.na(SLUG), SLUG, label),
-                     SLUG = dplyr::if_else(only_input, NA, SLUG)) %>%
-    dplyr::rename(LINK = SLUG) %>%
+                     SLUG = dplyr::if_else(only_input, NA,
+                                           paste0("https://", basename(dirname(remote)), ".github.io/",
+                                                  basename(remote), "/step_", level / 2, "/", SLUG))) %>%
+    dplyr::rename(link = SLUG) %>%
     dplyr::distinct()
   
   cells_attr %<>%
