@@ -4,7 +4,8 @@ thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 # load packages
-list.of.packages <- c("xml2", "tibble", "dplyr", "magrittr", "readr", "readxl", "tidyr", "stringr","readxl","data.table", "rcorpora")
+list.of.packages <- c("xml2", "tibble", "dplyr", "magrittr", "readr", "readxl", "tidyr", "stringr", "readxl",
+                      "data.table", "rcorpora", "xslt")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 invisible(lapply(list.of.packages, require, character.only = T))
@@ -31,6 +32,4 @@ test_xml <- create_diagram(
 )
 
 #export the output
-xml2::write_xml(test_xml, "example.xml")
-xml2::write_html(test_xml, "example.html")
-
+writeLines(test_xml, "test.html")

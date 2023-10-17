@@ -176,7 +176,41 @@ create_diagram <- function(path, pages = 1, arrows_style, steps_style, datamodel
       
     }
   }
-  return(test_xml)
+  
+  test_html <- xml_to_drawio_html(test_xml)
+  
+  return(test_html)
+}
+
+xml_to_drawio_html <- function(xml) {
+  
+  xsl <- xml2::read_xml('<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html" omit-xml-declaration="yes"/>
+    <xsl:template match="/">
+      <xsl:copy-of select="mxfile"/>
+    </xsl:template>
+</xsl:stylesheet>')
+  
+  html <- xslt::xml_xslt(xml, xsl)
+  wrapper_attr_before <- htmltools::htmlEscape('{"highlight":"#0000ff","lightbox":false,"nav":true,"resize":true,"toolbar":"zoom","xml":"',
+                                               attribute = T)
+  escaped_html <- htmltools::htmlEscape(html, attribute = T)
+  escaped_html <- gsub("&#10;", "", escaped_html, fixed = T, useBytes = T)
+  escaped_html <- gsub("&quot;", "\\&quot;", escaped_html, fixed = T, useBytes = T)
+  wrapper_attr_after <- htmltools::htmlEscape('"}', attribute = T)
+  
+  paste('<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->',
+               '<!DOCTYPE html>',
+               '<html>',
+               '<head>',
+               '<title>example</title>',
+               '<meta charset="utf-8"/>',
+               '</head>',
+               paste0('<body><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="',
+                      wrapper_attr_before, escaped_html, wrapper_attr_after, '"></div>'),
+               '<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>',
+               '</body>',
+               '</html>', sep = "\n")
 }
 
 ##%######################################################%##
