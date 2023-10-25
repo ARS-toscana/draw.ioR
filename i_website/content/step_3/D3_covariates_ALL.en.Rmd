@@ -1,0 +1,13 @@
+---
+title: "D3_covariates_ALL"
+output: html_document
+date: "2023-08-23"
+weight: 14
+slug: "d3-cov-all"
+name_excel: "D3_covariates_ALL.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

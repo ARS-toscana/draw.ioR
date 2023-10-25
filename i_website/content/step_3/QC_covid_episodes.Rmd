@@ -1,0 +1,13 @@
+---
+title: "QC_covid_episodes"
+output: html_document
+date: "2023-08-23"
+weight: 6
+slug: "qc-cov-epi"
+name_excel: "QC_covid_episodes.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

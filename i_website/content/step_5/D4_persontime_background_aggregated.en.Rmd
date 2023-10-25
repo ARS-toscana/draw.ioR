@@ -1,0 +1,13 @@
+---
+title: "D4_persontime_background_aggregated"
+output: html_document
+date: "2023-08-23"
+weight: 6
+slug: "d4-pers-back-aggr"
+name_excel: "D4_persontime_background_aggregated.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

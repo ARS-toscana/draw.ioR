@@ -1,0 +1,13 @@
+---
+title: "D4_count_events_windows"
+output: html_document
+date: "2023-08-23"
+weight: 1
+slug: "d4-count-event"
+name_excel: "D4_count_events_windows.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

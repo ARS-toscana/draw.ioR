@@ -1,0 +1,14 @@
+---
+title: "QC_covid_severity_components_death"
+output: html_document
+date: "2023-08-23"
+weight: 12
+slug: "qc-cov-sev-death"
+name_excel: "QC_covid_severity_components_death.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```
+

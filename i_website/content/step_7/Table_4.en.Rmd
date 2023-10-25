@@ -1,0 +1,13 @@
+---
+title: "Table 4"
+output: html_document
+date: "2023-08-23"
+weight: 4
+slug: "tab-4"
+name_excel: "Table 4.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```
