@@ -40,6 +40,9 @@ generate_codebook_page <- function(index_file) {
   
   if (!file.exists(folder_path)){ 
     dir.create(folder_path)
+    
+    blogdown::new_post("_index.en", kind = "codebook.md", open = F, slug = index_file[1, ]$SLUG,
+                       subdir = paste0("step_", level, "/"), ext = ".md")
   }
   
   
