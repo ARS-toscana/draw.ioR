@@ -4,10 +4,10 @@ title = "{{ replace .Name "-" " " | title }}"
 output = html_document
 menuTitle: "Step X"
 weight = X
-name_excel: "Table 1.xlsx"
-description: "`r rmarkdown::metadata$name_excel`"
+name_excel: ["Table 1.xlsx", "test"]
+description: "`r paste(rmarkdown::metadata$name_excel, collapse = ".")`"
 +++
 
-rmarkdown::metadata$name_excel
+paste(rmarkdown::metadata$name_excel, collapse = "<br>")
 
 {{%children containerstyle="div" style="h2" description="true" %}}
