@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="1695741928.91592" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/14.1.8 Chrome/87.0.4280.88 Electron/11.1.1 Safari/537.36" etag="fHMIuIajccZ_3DrzuGlE" version="14.1.8" type="device" pages="1">
+  <diagram id="daring_spearow" name="Page-1">
+    <mxGraphModel dx="1086" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell linkTarget="_blank" id="0"/>
+        <mxCell linkTarget="_blank" id="1" parent="0"/>
+        <object label="01_T2.1_1" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/01_T2.1_1_create_conceptset_datasets.R" linkTarget="_blank" shape="oval" id="01_T2.1_1_1">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="01_T2.1_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/01_T2.1_2_create_spells.R" linkTarget="_blank" shape="oval" id="01_T2.1_2_1">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="01_T2.1_3" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/01_T2.1_3_create_dates_in_PERSONS.R" linkTarget="_blank" shape="oval" id="01_T2.1_3_1">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="700" y="100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="01_T2.1_4" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/01_T2.1_4_create_prompt_and_itemset_datasets.R" linkTarget="_blank" shape="oval" id="01_T2.1_4_1">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="900" y="100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="02_T2_1" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/02_T2_1_create_QC_criteria.R" linkTarget="_blank" shape="oval" id="02_T2_1_2">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="300" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="02_T3_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/02_T3_2_apply_QC_exclusion_criteria.R" linkTarget="_blank" shape="oval" id="02_T3_2_2">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="300" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="03_T2_1" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/03_T2_1_create_exclusion_criteria.R" linkTarget="_blank" shape="oval" id="03_T2_1_3">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="500" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="03_T2_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/03_T2_2_merge_persons_concept.R" linkTarget="_blank" shape="oval" id="03_T2_2_3">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="500" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="04_T3_1" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/04_T3_1_apply_exclusion_criteria.R" linkTarget="_blank" shape="oval" id="04_T3_1_4">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="700" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="04_T3_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/04_T3_2_apply_quality_check_exclusion_criteria_doses.R" linkTarget="_blank" shape="oval" id="04_T3_2_4">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="700" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="04_T3_3" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/04_T3_3_descriptive_statistics_excluded_persons.R" linkTarget="_blank" shape="oval" id="04_T3_3_4">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="700" y="700" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_1" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_1_components.R" linkTarget="_blank" shape="oval" id="05_T2.2_1_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_2_secondary_components.R" linkTarget="_blank" shape="oval" id="05_T2.2_2_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2_3" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2_3_create_events_ALL_OUTCOMES.R" linkTarget="_blank" shape="oval" id="05_T2_3_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="700" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T3_4" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T3_4_QC_count_codes_ALL_OUTCOMES.R" linkTarget="_blank" shape="oval" id="05_T3_4_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="900" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T3_5" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T3_5_QC_apply_component_strategy.R" linkTarget="_blank" shape="oval" id="05_T3_5_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1100" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_6" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_6_covariates_at_baseline.R" linkTarget="_blank" shape="oval" id="05_T2.2_6_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1300" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_7" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_7_DP_at_baseline.R" linkTarget="_blank" shape="oval" id="05_T2.2_7_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1500" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.3_8" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.3_8_baseline_characteristics.R" linkTarget="_blank" shape="oval" id="05_T2.3_8_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1700" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.3_9" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.3_9_ALL_covariates_at_baseline_V2.R" linkTarget="_blank" shape="oval" id="05_T2.3_9_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1900" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_12" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_12_COVID_repeated_events.R" linkTarget="_blank" shape="oval" id="05_T2.2_12_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2100" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_13" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_13_component_COVID_severity_hospitalised.R" linkTarget="_blank" shape="oval" id="05_T2.2_13_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2300" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_14" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_14_component_COVID_severity_ICU.R" linkTarget="_blank" shape="oval" id="05_T2.2_14_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2500" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.2_15" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.2_15_component_COVID_severity_DEATH.R" linkTarget="_blank" shape="oval" id="05_T2.2_15_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2700" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="05_T2.3_16" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/05_T2.3_16_COVID_severity_repeated_events.R" linkTarget="_blank" shape="oval" id="05_T2.3_16_5">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2900" y="900" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2_1" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2_1_create_D3_datasets.R" linkTarget="_blank" shape="oval" id="06_T2_1_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.2_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.2_2_covariates_at_vaccination.R" linkTarget="_blank" shape="oval" id="06_T2.2_2_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.2_3" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.2_3_DP_at_vaccination.R" linkTarget="_blank" shape="oval" id="06_T2.2_3_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="700" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.3_4" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.3_4_vaccination_characteristics.R" linkTarget="_blank" shape="oval" id="06_T2.3_4_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="900" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.3_5" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.3_5_ALL_covariates_at_vaccination_V2.R" linkTarget="_blank" shape="oval" id="06_T2.3_5_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1100" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2_6" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2_6_create_D3_datasets.R" linkTarget="_blank" shape="oval" id="06_T2_6_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1300" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2_7" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2_7_children_population.R" linkTarget="_blank" shape="oval" id="06_T2_7_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1500" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.2_8" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.2_8_covariates_at_covid.R" linkTarget="_blank" shape="oval" id="06_T2.2_8_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1700" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.2_9" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.2_9_DP_at_covid.R" linkTarget="_blank" shape="oval" id="06_T2.2_9_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="1900" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.3_10" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.3_10_covid_characteristics.R" linkTarget="_blank" shape="oval" id="06_T2.3_10_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2100" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.3_11" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.3_11_ALL_covariates_at_covid_V2.R" linkTarget="_blank" shape="oval" id="06_T2.3_11_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2300" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2.3_12" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2.3_12_children_population_c.R" linkTarget="_blank" shape="oval" id="06_T2.3_12_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2500" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="07_T3_9" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/07_T3_9_create_person_time_children_year.R" linkTarget="_blank" shape="oval" id="07_T3_9_7">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="1300" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="07_T3_10" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/07_T3_10_aggregate_monthly_children.R" linkTarget="_blank" shape="oval" id="07_T3_10_7">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="500" y="1300" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="08_T4_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/08_T4_2_IR_children.R" linkTarget="_blank" shape="oval" id="08_T4_2_8">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="1500" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="09_T3_4" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/09_T3_4_create_D4_descriptive_tables_children.R" linkTarget="_blank" shape="oval" id="09_T3_4_9">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="1700" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="11_T4_2" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/11_T4_2_create_dummy_tables_children.R" linkTarget="_blank" shape="oval" id="11_T4_2_11">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="300" y="2100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="06_T2_13" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/06_T2_13_Poisson_population.R" linkTarget="_blank" shape="oval" id="06_T2_13_6">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="2700" y="1100" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="07_T3_11" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/07_T3_11_create_person_time_poisson.R" linkTarget="_blank" shape="oval" id="07_T3_11_7">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="700" y="1300" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="07_T3_12" link="https://github.com/ARS-toscana/draw.ioR/blob/main/p_steps/07_T3_12_aggregate_monthly_Poisson.R" linkTarget="_blank" shape="oval" id="07_T3_12_7">
+          <mxCell linkTarget="_blank" style="ellipse;html=1;whiteSpace=wrap" parent="1" vertex="1">
+            <mxGeometry x="900" y="1300" width="80" height="80" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="conceptsetdataset" link="https://ARS-toscana.github.io/draw.ioR/step_1/concept" linkTarget="_blank" shape="oval" id="NA_conceptsetdataset">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="output_spells_category" link="https://ARS-toscana.github.io/draw.ioR/step_1/out_spell" linkTarget="_blank" shape="oval" id="NA_output_spells_category">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_PERSONS" link="https://ARS-toscana.github.io/draw.ioR/step_1/D3_PERSONS" linkTarget="_blank" shape="oval" id="NA_D3_PERSONS">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="700" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_events_DEATH" link="https://ARS-toscana.github.io/draw.ioR/step_1/D3_events_DEATH" linkTarget="_blank" shape="oval" id="NA_D3_events_DEATH">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="900" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="itemsetdataset" link="https://ARS-toscana.github.io/draw.ioR/step_1/itemsetdataset" linkTarget="_blank" shape="oval" id="NA_itemsetdataset">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1100" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="promptsetdataset" link="https://ARS-toscana.github.io/draw.ioR/step_1/promptsetdataset" linkTarget="_blank" shape="oval" id="NA_promptsetdataset">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1300" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_concepts_QC_criteria" link="https://ARS-toscana.github.io/draw.ioR/step_2/D3_concepts_QC_criteria" linkTarget="_blank" shape="oval" id="NA_D3_concepts_QC_criteria">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="selected_doses" link="https://ARS-toscana.github.io/draw.ioR/step_2/selected_doses" linkTarget="_blank" shape="oval" id="NA_selected_doses">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Flowchart_QC_criteria" link="https://ARS-toscana.github.io/draw.ioR/step_2/Flowchart_QC_criteria" linkTarget="_blank" shape="oval" id="NA_Flowchart_QC_criteria">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="700" y="400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_selection_criteria" link="https://ARS-toscana.github.io/draw.ioR/step_3/D3_selection_criteria" linkTarget="_blank" shape="oval" id="NA_D3_selection_criteria">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="persons_doses" link="https://ARS-toscana.github.io/draw.ioR/step_3/persons_doses" linkTarget="_blank" shape="oval" id="NA_persons_doses">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_study_population" link="https://ARS-toscana.github.io/draw.ioR/step_4/D4_study_population" linkTarget="_blank" shape="oval" id="NA_D4_study_population">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Flowchart_basic_exclusion_criteria" link="https://ARS-toscana.github.io/draw.ioR/step_4/Flowchart_basic_exclusion_criteria" linkTarget="_blank" shape="oval" id="NA_Flowchart_basic_exclusion_criteria">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Flowchart_exclusion_criteria" link="https://ARS-toscana.github.io/draw.ioR/step_4/Flowchart_exclusion_criteria" linkTarget="_blank" shape="oval" id="NA_Flowchart_exclusion_criteria">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="700" y="800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="Flowchart_doses" link="https://ARS-toscana.github.io/draw.ioR/step_4/Flowchart_doses" linkTarget="_blank" shape="oval" id="NA_Flowchart_doses">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="900" y="800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="number_criteria_excluded.csv" link="https://ARS-toscana.github.io/draw.ioR/step_4/number_criteria_excluded.csv" linkTarget="_blank" shape="oval" id="NA_number_criteria_excluded.csv">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1100" y="800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_components_OUTCOME_type" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_components_OUTCOME_type" linkTarget="_blank" shape="oval" id="NA_D3_components_OUTCOME_type">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_events_OUTCOME_type" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_events_OUTCOME_type" linkTarget="_blank" shape="oval" id="NA_D3_events_OUTCOME_type">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_events_COVID_narrow" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_events_COVID_narrow" linkTarget="_blank" shape="oval" id="NA_D3_events_COVID_narrow">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="700" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_eventsSecondary_SECCOMP" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_eventsSecondary_SECCOMP" linkTarget="_blank" shape="oval" id="NA_D3_eventsSecondary_SECCOMP">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="900" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_events_ALL_OUTCOMES" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_events_ALL_OUTCOMES" linkTarget="_blank" shape="oval" id="NA_D3_events_ALL_OUTCOMES">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1100" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="QC_code_counts_in_study_population_OUTCOME_year" link="https://ARS-toscana.github.io/draw.ioR/step_5/QC_code_counts_in_study_population_OUTCOME_year" linkTarget="_blank" shape="oval" id="NA_QC_code_counts_in_study_population_OUTCOME_year">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1300" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="QC_all_components_OUTCOME" link="https://ARS-toscana.github.io/draw.ioR/step_5/QC_all_components_OUTCOME" linkTarget="_blank" shape="oval" id="NA_QC_all_components_OUTCOME">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1500" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_study_population_covariates" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_study_population_covariates" linkTarget="_blank" shape="oval" id="NA_D3_study_population_covariates">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1700" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_study_population_DP" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_study_population_DP" linkTarget="_blank" shape="oval" id="NA_D3_study_population_DP">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1900" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_study_population_cov" link="https://ARS-toscana.github.io/draw.ioR/step_5/D4_study_population_cov" linkTarget="_blank" shape="oval" id="NA_D4_study_population_cov">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2100" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_study_population_cov_ALL" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_study_population_cov_ALL" linkTarget="_blank" shape="oval" id="NA_D3_study_population_cov_ALL">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2300" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_covid_episodes" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_covid_episodes" linkTarget="_blank" shape="oval" id="NA_D3_covid_episodes">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2500" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_covid_episodes_description" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_covid_episodes_description" linkTarget="_blank" shape="oval" id="NA_D3_covid_episodes_description">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2700" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="QC_covid_episodes" link="https://ARS-toscana.github.io/draw.ioR/step_5/QC_covid_episodes" linkTarget="_blank" shape="oval" id="NA_QC_covid_episodes">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2900" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_covid_severity_components_hospitalisation" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_covid_severity_components_hospitalisation" linkTarget="_blank" shape="oval" id="NA_D3_covid_severity_components_hospitalisation">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3100" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="QC_covid_severity_components_hospitalisation" link="https://ARS-toscana.github.io/draw.ioR/step_5/QC_covid_severity_components_hospitalisation" linkTarget="_blank" shape="oval" id="NA_QC_covid_severity_components_hospitalisation">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3300" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_covid_severity_components_ICU" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_covid_severity_components_ICU" linkTarget="_blank" shape="oval" id="NA_D3_covid_severity_components_ICU">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3500" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="QC_covid_severity_components_ICU" link="https://ARS-toscana.github.io/draw.ioR/step_5/QC_covid_severity_components_ICU" linkTarget="_blank" shape="oval" id="NA_QC_covid_severity_components_ICU">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3700" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_covid_severity_components_death" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_covid_severity_components_death" linkTarget="_blank" shape="oval" id="NA_D3_covid_severity_components_death">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3900" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="QC_covid_severity_components_death" link="https://ARS-toscana.github.io/draw.ioR/step_5/QC_covid_severity_components_death" linkTarget="_blank" shape="oval" id="NA_QC_covid_severity_components_death">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4100" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_covid_episodes_severity" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_covid_episodes_severity" linkTarget="_blank" shape="oval" id="NA_D3_covid_episodes_severity">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4300" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_outcomes_severity_episodes_covid" link="https://ARS-toscana.github.io/draw.ioR/step_5/D3_outcomes_severity_episodes_covid" linkTarget="_blank" shape="oval" id="NA_D3_outcomes_severity_episodes_covid">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4500" y="1000" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_study_population_no_risk" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_study_population_no_risk" linkTarget="_blank" shape="oval" id="NA_D3_study_population_no_risk">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_Vaccin_cohort_no_risk" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_Vaccin_cohort_no_risk" linkTarget="_blank" shape="oval" id="NA_D3_Vaccin_cohort_no_risk">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_Vaccin_cohort_covariates" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_Vaccin_cohort_covariates" linkTarget="_blank" shape="oval" id="NA_D3_Vaccin_cohort_covariates">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="700" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_Vaccin_cohort_DP" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_Vaccin_cohort_DP" linkTarget="_blank" shape="oval" id="NA_D3_Vaccin_cohort_DP">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="900" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_Vaccin_cohort_cov" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_Vaccin_cohort_cov" linkTarget="_blank" shape="oval" id="NA_D4_Vaccin_cohort_cov">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1100" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_Vaccin_cohort_cov_ALL" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_Vaccin_cohort_cov_ALL" linkTarget="_blank" shape="oval" id="NA_D3_Vaccin_cohort_cov_ALL">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1300" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_study_population" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_study_population" linkTarget="_blank" shape="oval" id="NA_D3_study_population">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1500" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_Vaccin_cohort" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_Vaccin_cohort" linkTarget="_blank" shape="oval" id="NA_D3_Vaccin_cohort">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1700" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_vaxweeks_vaccin_cohort" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_vaxweeks_vaccin_cohort" linkTarget="_blank" shape="oval" id="NA_D3_vaxweeks_vaccin_cohort">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1900" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_studyweeks" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_studyweeks" linkTarget="_blank" shape="oval" id="NA_D3_studyweeks">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2100" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_vaxweeks" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_vaxweeks" linkTarget="_blank" shape="oval" id="NA_D3_vaxweeks">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2300" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_vaxweeks_including_not_vaccinated" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_vaxweeks_including_not_vaccinated" linkTarget="_blank" shape="oval" id="NA_D3_vaxweeks_including_not_vaccinated">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2500" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_population_b" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_population_b" linkTarget="_blank" shape="oval" id="NA_D4_population_b">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2700" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_study_variables_for_children" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_study_variables_for_children" linkTarget="_blank" shape="oval" id="NA_D3_study_variables_for_children">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2900" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_selection_criteria_c" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_selection_criteria_c" linkTarget="_blank" shape="oval" id="NA_D3_selection_criteria_c">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3100" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_population_c_no_risk" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_population_c_no_risk" linkTarget="_blank" shape="oval" id="NA_D4_population_c_no_risk">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3300" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_selection_criteria_d" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_selection_criteria_d" linkTarget="_blank" shape="oval" id="NA_D3_selection_criteria_d">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3500" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_population_d_28" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_population_d_28" linkTarget="_blank" shape="oval" id="NA_D4_population_d_28">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3700" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_population_d" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_population_d" linkTarget="_blank" shape="oval" id="NA_D4_population_d">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="3900" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_population_d_long" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_population_d_long" linkTarget="_blank" shape="oval" id="NA_D4_population_d_long">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4100" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_population_c_covariates" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_population_c_covariates" linkTarget="_blank" shape="oval" id="NA_D3_population_c_covariates">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4300" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_population_c_DP" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_population_c_DP" linkTarget="_blank" shape="oval" id="NA_D3_population_c_DP">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4500" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_population_c_cov" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_population_c_cov" linkTarget="_blank" shape="oval" id="NA_D4_population_c_cov">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4700" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_population_c_cov_ALL" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_population_c_cov_ALL" linkTarget="_blank" shape="oval" id="NA_D3_population_c_cov_ALL">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="4900" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_population_c" link="https://ARS-toscana.github.io/draw.ioR/step_6/D4_population_c" linkTarget="_blank" shape="oval" id="NA_D4_population_c">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="5100" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_b" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_b" linkTarget="_blank" shape="oval" id="NA_D4_persontime_b">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_c" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_c" linkTarget="_blank" shape="oval" id="NA_D4_persontime_c">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_d" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_d" linkTarget="_blank" shape="oval" id="NA_D4_persontime_d">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="700" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_d_long" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_d_long" linkTarget="_blank" shape="oval" id="NA_D4_persontime_d_long">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="900" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_b_BC" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_b_BC" linkTarget="_blank" shape="oval" id="NA_D4_persontime_b_BC">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1100" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_c_BC" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_c_BC" linkTarget="_blank" shape="oval" id="NA_D4_persontime_c_BC">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1300" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_d_BC" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_d_BC" linkTarget="_blank" shape="oval" id="NA_D4_persontime_d_BC">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1500" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_d_long_BC" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_d_long_BC" linkTarget="_blank" shape="oval" id="NA_D4_persontime_d_long_BC">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1700" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="RES_IR_year_children_b" link="https://ARS-toscana.github.io/draw.ioR/step_8/RES_IR_year_children_b" linkTarget="_blank" shape="oval" id="NA_RES_IR_year_children_b">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="1600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="RES_IR_year_children_c" link="https://ARS-toscana.github.io/draw.ioR/step_8/RES_IR_year_children_c" linkTarget="_blank" shape="oval" id="NA_RES_IR_year_children_c">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="1600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="RES_IR_year_children_d" link="https://ARS-toscana.github.io/draw.ioR/step_8/RES_IR_year_children_d" linkTarget="_blank" shape="oval" id="NA_RES_IR_year_children_d">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="700" y="1600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="RES_IR_year_children_d_fup" link="https://ARS-toscana.github.io/draw.ioR/step_8/RES_IR_year_children_d_fup" linkTarget="_blank" shape="oval" id="NA_RES_IR_year_children_d_fup">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="900" y="1600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_descriptive_dataset_STRATA" link="https://ARS-toscana.github.io/draw.ioR/step_9/D4_descriptive_dataset_STRATA" linkTarget="_blank" shape="oval" id="NA_D4_descriptive_dataset_STRATA">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="1800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_followup_STRATA2" link="https://ARS-toscana.github.io/draw.ioR/step_9/D4_followup_STRATA2" linkTarget="_blank" shape="oval" id="NA_D4_followup_STRATA2">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="500" y="1800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="dummy_tables" link="https://ARS-toscana.github.io/draw.ioR/step_11/dummy_tables" linkTarget="_blank" shape="oval" id="NA_dummy_tables">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="300" y="2200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D3_vaxweeks_poisson" link="https://ARS-toscana.github.io/draw.ioR/step_6/D3_vaxweeks_poisson" linkTarget="_blank" shape="oval" id="NA_D3_vaxweeks_poisson">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="5300" y="1200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_risk_month_poisson" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_risk_month_poisson" linkTarget="_blank" shape="oval" id="NA_D4_persontime_risk_month_poisson">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="1900" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="D4_persontime_monthly_poisson_RF" link="https://ARS-toscana.github.io/draw.ioR/step_7/D4_persontime_monthly_poisson_RF" linkTarget="_blank" shape="oval" id="NA_D4_persontime_monthly_poisson_RF">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="2100" y="1400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="VACCINES" linkTarget="_blank" shape="oval" id="NA_VACCINES">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="100" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="MEDICINES" linkTarget="_blank" shape="oval" id="NA_MEDICINES">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="200" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="EVENTS" linkTarget="_blank" shape="oval" id="NA_EVENTS">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="300" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="SURVEY_OBSERVATIONS" linkTarget="_blank" shape="oval" id="NA_SURVEY_OBSERVATIONS">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="400" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="MEDICAL_OBSERVATIONS" linkTarget="_blank" shape="oval" id="NA_MEDICAL_OBSERVATIONS">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="500" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="OBSERVATION_PERIODS" linkTarget="_blank" shape="oval" id="NA_OBSERVATION_PERIODS">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="600" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="PERSONS" linkTarget="_blank" shape="oval" id="NA_PERSONS">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="700" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="SURVEY_ID" linkTarget="_blank" shape="oval" id="NA_SURVEY_ID">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="800" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object label="VISIT_OCCURRENCE_ID" linkTarget="_blank" shape="oval" id="NA_VISIT_OCCURRENCE_ID">
+          <mxCell linkTarget="_blank" style="html=1;rounded=0;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d" parent="1" vertex="1">
+            <mxGeometry x="0" y="900" width="120" height="60" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_VACCINES" target="01_T2.1_1_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_MEDICINES" target="01_T2.1_1_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_EVENTS" target="01_T2.1_1_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_SURVEY_OBSERVATIONS" target="01_T2.1_1_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_MEDICAL_OBSERVATIONS" target="01_T2.1_1_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_OBSERVATION_PERIODS" target="01_T2.1_2_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_PERSONS" target="01_T2.1_3_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_SURVEY_OBSERVATIONS" target="01_T2.1_4_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_MEDICAL_OBSERVATIONS" target="01_T2.1_4_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_SURVEY_ID" target="01_T2.1_4_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_VISIT_OCCURRENCE_ID" target="01_T2.1_4_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_SURVEY_ID" target="01_T2.1_4_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_VISIT_OCCURRENCE_ID" target="01_T2.1_4_1" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_OBSERVATION_PERIODS" target="03_T2_1_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="01_T2.1_1_1" target="NA_conceptsetdataset" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="01_T2.1_2_1" target="NA_output_spells_category" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="01_T2.1_3_1" target="NA_D3_PERSONS" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="01_T2.1_3_1" target="NA_D3_events_DEATH" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="01_T2.1_4_1" target="NA_itemsetdataset" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="01_T2.1_4_1" target="NA_promptsetdataset" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="02_T2_1_2" target="NA_D3_concepts_QC_criteria" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="02_T3_2_2" target="NA_selected_doses" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="02_T3_2_2" target="NA_Flowchart_QC_criteria" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="03_T2_1_3" target="NA_D3_selection_criteria" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="03_T2_2_3" target="NA_persons_doses" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="04_T3_1_4" target="NA_D4_study_population" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="04_T3_1_4" target="NA_Flowchart_basic_exclusion_criteria" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="04_T3_1_4" target="NA_Flowchart_exclusion_criteria" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="04_T3_2_4" target="NA_Flowchart_doses" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="04_T3_3_4" target="NA_number_criteria_excluded.csv" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_1_5" target="NA_D3_components_OUTCOME_type" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_1_5" target="NA_D3_events_OUTCOME_type" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_1_5" target="NA_D3_events_COVID_narrow" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_2_5" target="NA_D3_eventsSecondary_SECCOMP" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2_3_5" target="NA_D3_events_ALL_OUTCOMES" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T3_4_5" target="NA_QC_code_counts_in_study_population_OUTCOME_year" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T3_5_5" target="NA_QC_all_components_OUTCOME" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_6_5" target="NA_D3_study_population_covariates" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_7_5" target="NA_D3_study_population_DP" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.3_8_5" target="NA_D4_study_population_cov" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.3_9_5" target="NA_D3_study_population_cov_ALL" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_12_5" target="NA_D3_covid_episodes" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_12_5" target="NA_D3_covid_episodes_description" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_12_5" target="NA_QC_covid_episodes" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_13_5" target="NA_D3_covid_severity_components_hospitalisation" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_13_5" target="NA_QC_covid_severity_components_hospitalisation" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_14_5" target="NA_D3_covid_severity_components_ICU" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_14_5" target="NA_QC_covid_severity_components_ICU" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_15_5" target="NA_D3_covid_severity_components_death" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.2_15_5" target="NA_QC_covid_severity_components_death" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.3_16_5" target="NA_D3_covid_episodes_severity" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="05_T2.3_16_5" target="NA_D3_outcomes_severity_episodes_covid" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_1_6" target="NA_D3_study_population_no_risk" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_1_6" target="NA_D3_Vaccin_cohort_no_risk" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.2_2_6" target="NA_D3_Vaccin_cohort_covariates" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.2_3_6" target="NA_D3_Vaccin_cohort_DP" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.3_4_6" target="NA_D4_Vaccin_cohort_cov" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.3_5_6" target="NA_D3_Vaccin_cohort_cov_ALL" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_6_6" target="NA_D3_study_population" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_6_6" target="NA_D3_Vaccin_cohort" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_6_6" target="NA_D3_vaxweeks_vaccin_cohort" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_6_6" target="NA_D3_studyweeks" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_6_6" target="NA_D3_vaxweeks" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_6_6" target="NA_D3_vaxweeks_including_not_vaccinated" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D4_population_b" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D3_study_variables_for_children" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D3_selection_criteria_c" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D4_population_c_no_risk" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D3_selection_criteria_d" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D4_population_d_28" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D4_population_d" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_7_6" target="NA_D4_population_d_long" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.2_8_6" target="NA_D3_population_c_covariates" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.2_9_6" target="NA_D3_population_c_DP" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.3_10_6" target="NA_D4_population_c_cov" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.3_11_6" target="NA_D3_population_c_cov_ALL" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2.3_12_6" target="NA_D4_population_c" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_9_7" target="NA_D4_persontime_b" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_9_7" target="NA_D4_persontime_c" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_9_7" target="NA_D4_persontime_d" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_9_7" target="NA_D4_persontime_d_long" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_10_7" target="NA_D4_persontime_b_BC" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_10_7" target="NA_D4_persontime_c_BC" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_10_7" target="NA_D4_persontime_d_BC" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_10_7" target="NA_D4_persontime_d_long_BC" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="08_T4_2_8" target="NA_RES_IR_year_children_b" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="08_T4_2_8" target="NA_RES_IR_year_children_c" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="08_T4_2_8" target="NA_RES_IR_year_children_d" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="08_T4_2_8" target="NA_RES_IR_year_children_d_fup" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="09_T3_4_9" target="NA_D4_descriptive_dataset_STRATA" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="09_T3_4_9" target="NA_D4_followup_STRATA2" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="11_T4_2_11" target="NA_dummy_tables" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="06_T2_13_6" target="NA_D3_vaxweeks_poisson" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_11_7" target="NA_D4_persontime_risk_month_poisson" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="07_T3_12_7" target="NA_D4_persontime_monthly_poisson_RF" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="02_T2_1_2" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_concepts_QC_criteria" target="02_T3_2_2" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_PERSONS" target="03_T2_1_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_output_spells_category" target="03_T2_1_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_output_spells_category" target="03_T2_2_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_selection_criteria" target="03_T2_2_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_concepts_QC_criteria" target="03_T2_2_3" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_selection_criteria" target="04_T3_1_4" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_persons_doses" target="04_T3_2_4" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_selection_criteria" target="04_T3_3_4" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="05_T2.2_1_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_1_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="05_T2.2_2_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_2_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2_3_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_OUTCOME_type" target="05_T2_3_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_eventsSecondary_SECCOMP" target="05_T2_3_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_DEATH" target="05_T2_3_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T3_4_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_ALL_OUTCOMES" target="05_T3_4_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_OUTCOME_type" target="05_T3_5_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_6_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="05_T2.2_6_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_7_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="05_T2.2_7_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.3_8_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population_covariates" target="05_T2.3_8_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population_cov" target="05_T2.3_9_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population_DP" target="05_T2.3_9_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.3_9_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_12_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_COVID_narrow" target="05_T2.2_12_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_DEATH" target="05_T2.2_12_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_itemsetdataset" target="05_T2.2_12_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_13_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_COVID_narrow" target="05_T2.2_13_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_itemsetdataset" target="05_T2.2_13_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_covid_episodes" target="05_T2.2_13_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_14_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_COVID_narrow" target="05_T2.2_14_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_covid_episodes" target="05_T2.2_14_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_itemsetdataset" target="05_T2.2_14_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.2_15_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_COVID_narrow" target="05_T2.2_15_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_itemsetdataset" target="05_T2.2_15_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_covid_episodes" target="05_T2.2_15_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="05_T2.3_16_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_covid_episodes" target="05_T2.3_16_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_covid_severity_components_death" target="05_T2.3_16_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_covid_severity_components_ICU" target="05_T2.3_16_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_covid_severity_components_hospitalisation" target="05_T2.3_16_5" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_study_population" target="06_T2_1_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_selected_doses" target="06_T2_1_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population_cov_ALL" target="06_T2_1_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_no_risk" target="06_T2.2_2_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="06_T2.2_2_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_no_risk" target="06_T2.2_3_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="06_T2.2_3_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_no_risk" target="06_T2.3_4_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_covariates" target="06_T2.3_4_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_no_risk" target="06_T2.3_5_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_Vaccin_cohort_cov" target="06_T2.3_5_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_DP" target="06_T2.3_5_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population_no_risk" target="06_T2_6_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population_cov_ALL" target="06_T2_6_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_cov_ALL" target="06_T2_6_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_ALL_OUTCOMES" target="06_T2_7_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_outcomes_severity_episodes_covid" target="06_T2_7_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population" target="06_T2_7_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c_no_risk" target="06_T2.2_8_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="06_T2.2_8_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c_no_risk" target="06_T2.2_9_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_conceptsetdataset" target="06_T2.2_9_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c_no_risk" target="06_T2.3_10_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_population_c_covariates" target="06_T2.3_10_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c_no_risk" target="06_T2.3_11_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c_cov" target="06_T2.3_11_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_population_c_DP" target="06_T2.3_11_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c_no_risk" target="06_T2.3_12_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_population_c_cov_ALL" target="06_T2.3_12_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_events_ALL_OUTCOMES" target="07_T3_9_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_b" target="07_T3_9_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_outcomes_severity_episodes_covid" target="07_T3_9_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c" target="07_T3_9_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_d_28" target="07_T3_9_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_d_long" target="07_T3_9_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_b" target="07_T3_10_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_c" target="07_T3_10_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_d" target="07_T3_10_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_d_long" target="07_T3_10_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_b_BC" target="08_T4_2_8" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_d_BC" target="08_T4_2_8" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_d_long_BC" target="08_T4_2_8" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort" target="09_T3_4_9" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population" target="09_T3_4_9" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population_cov_ALL" target="09_T3_4_9" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_b" target="09_T3_4_9" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_c" target="09_T3_4_9" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_d" target="09_T3_4_9" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_cov_ALL" target="09_T3_4_9" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_Flowchart_basic_exclusion_criteria" target="11_T4_2_11" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_Flowchart_exclusion_criteria" target="11_T4_2_11" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_descriptive_dataset_STRATA" target="11_T4_2_11" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_followup_STRATA2" target="11_T4_2_11" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_population_d" target="11_T4_2_11" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort" target="11_T4_2_11" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_QC_code_counts_in_study_population_OUTCOME_year" target="11_T4_2_11" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_vaxweeks_including_not_vaccinated" target="06_T2_13_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_Vaccin_cohort_cov_ALL" target="06_T2_13_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_study_population" target="06_T2_13_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_outcomes_severity_episodes_covid" target="06_T2_13_6" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_vaxweeks_poisson" target="07_T3_11_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D3_outcomes_severity_episodes_covid" target="07_T3_11_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <object tags="NA NA">
+          <mxCell parent="1" source="NA_D4_persontime_risk_month_poisson" target="07_T3_12_7" edge="1" html="1" verticalAlign="bottom" startArrow="oval" startFill="1" endArrow="block" startSize="8" exitX="1" exitY="0.5" exitDx="0" exitDy="0" entryX="0" entryY="0.5" entryDx="0" entryDy="0" edgeStyle="orthogonalEdgeStyle" elbow="vertical" curved="1" rounded="0">
+            <mxGeometry width="60" relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
