@@ -1,7 +1,7 @@
 #set the directory where the file is saved as the working directory
-if (!require("rstudioapi")) install.packages("rstudioapi")
-thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
-thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+# if (!require("rstudioapi")) install.packages("rstudioapi")
+# thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+# thisdir <- setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 # load packages
 list.of.packages <- c("xml2", "tibble", "dplyr", "magrittr", "readr", "readxl", "tidyr", "stringr", "readxl",
@@ -26,6 +26,11 @@ index_file <- read_excel(index_path) %>%
                 SLUG = dplyr::if_else(!is.na(SLUG), SLUG, FILE),
                 SLUG = paste0("https://", basename(dirname(remote)), ".github.io/",
                               basename(remote), "/step_", PROGRAM, "/", SLUG))
+
+index_file[1, ]
+if (!file.exists(paste0("/../i_codebooks/", index_file[1, ][2], ".xlsx"))){ 
+  return()
+}
 
 generate_codebook_page <- function(index_file) {
   index_file[1, ]
